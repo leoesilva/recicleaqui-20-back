@@ -13,4 +13,4 @@ rebuild: build up
 logs:
 	docker compose ${DOCKER_COMPOSE_FILE} logs ${ARGS} -f
 sh:
-	docker compose ${DOCKER_COMPOSE_FILE}exec ${ARGS} bash
+	docker compose ${DOCKER_COMPOSE_FILE} exec ${ARGS} bash

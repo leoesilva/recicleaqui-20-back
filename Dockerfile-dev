@@ -10,7 +10,7 @@ RUN npm install
 # Copy the rest of the application code to the working directory
 COPY . .
 
-RUN npm install nodemon
+RUN npm install -g nodemon
 # Expose the port your Node.js application listens on
 
 CMD ["npm", "run", "dev"]
